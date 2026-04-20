@@ -54,7 +54,7 @@ If you use or reference this report, please cite:
 > correlation in CGM forecasting: XGBoost vs Temporal Fusion 
 > Transformer on 700 Framingham Heart Study subjects. 
 > BS902 Directed Research Report, Boston University. 
-> Available at: https://github.com/nsultana/cgm-acf-forecasting
+> Available at: https://github.com/nszeny/cgm-acf-forecasting
 
 ## Contact
 
