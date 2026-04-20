@@ -50,8 +50,8 @@ not included in this repository.
 
 If you use or reference this report, please cite:
 
-> Sultana, N. (2026). Systematic evaluation of residual temporal 
-> correlation in CGM forecasting: XGBoost vs Temporal Fusion 
+> Sultana, N. and Tripodis, Y. (2026). Systematic evaluation of residual 
+> temporal correlation in CGM forecasting: XGBoost vs Temporal Fusion 
 > Transformer on 700 Framingham Heart Study subjects. 
 > BS902 Directed Research Report, Boston University. 
 > Available at: https://github.com/nszeny/cgm-acf-forecasting
