@@ -1,0 +1,136 @@
+[20:36:24] ============================================================
+[20:36:24] PHASE 2 COMPARISON ANALYSIS
+[20:36:24] TFT-MSE vs TFT-ACF vs TFT-Whittle
+[20:36:24] ============================================================
+[20:36:24]   ✓ Found: TFT-MSE → /restricted/projectnb/cgmdiab/nsultana/results/v4_final/tft
+[20:36:24]   ✓ Found: TFT-ACF → /restricted/projectnb/cgmdiab/nsultana/results/aim3_cgm/rolling_acf
+[20:36:24]   ✓ Found: TFT-Whittle → /restricted/projectnb/cgmdiab/nsultana/results/aim3_cgm/rolling_whittle
+[20:36:24] 
+============================================================
+[20:36:24] COMPUTING SUMMARY METRICS
+[20:36:24] ============================================================
+[20:36:24] 
+  Model: TFT-MSE
+[20:36:24]     h= 6 (  30min) | RMSE= 21.39 | ACF=0.9164 | DW=0.1672 | PI80=0.725 | R2=0.4103
+[20:36:24]     h=12 (  60min) | RMSE= 28.62 | ACF=0.9615 | DW=0.0769 | PI80=0.664 | R2=0.1941
+[20:36:24]   WARNING: TFT-MSE h=18 — file not found in /restricted/projectnb/cgmdiab/nsultana/results/v4_final/tft
+[20:36:24]     h=24 ( 120min) | RMSE= 36.45 | ACF=0.9766 | DW=0.0461 | PI80=0.619 | R2=0.0879
+[20:36:24]   WARNING: TFT-MSE h=36 — file not found in /restricted/projectnb/cgmdiab/nsultana/results/v4_final/tft
+[20:36:24]     h=48 ( 240min) | RMSE= 46.97 | ACF=0.9852 | DW=0.0277 | PI80=0.563 | R2=-0.0213
+[20:36:24]   WARNING: TFT-MSE h=60 — file not found in /restricted/projectnb/cgmdiab/nsultana/results/v4_final/tft
+[20:36:24]   WARNING: TFT-MSE h=72 — file not found in /restricted/projectnb/cgmdiab/nsultana/results/v4_final/tft
+[20:36:24]   WARNING: TFT-MSE h=84 — file not found in /restricted/projectnb/cgmdiab/nsultana/results/v4_final/tft
+[20:36:24]     h=96 ( 480min) | RMSE= 43.60 | ACF=0.9802 | DW=0.0378 | PI80=0.573 | R2=0.0059
+[20:36:24] 
+  Model: TFT-ACF
+[20:36:24]     h= 6 (  30min) | RMSE= 15.71 | ACF=0.9455 | DW=0.1059 | PI80=0.668 | R2=0.3052
+[20:36:24]     h=12 (  60min) | RMSE= 17.94 | ACF=0.9671 | DW=0.0645 | PI80=0.620 | R2=0.0909
+[20:36:24]     h=18 (  90min) | RMSE= 17.98 | ACF=0.9658 | DW=0.0666 | PI80=0.596 | R2=0.0583
+[20:36:24]     h=24 ( 120min) | RMSE= 18.31 | ACF=0.9669 | DW=0.0645 | PI80=0.587 | R2=0.0504
+[20:36:24]     h=36 ( 180min) | RMSE= 17.83 | ACF=0.9663 | DW=0.0655 | PI80=0.582 | R2=0.0410
+[20:36:24]     h=48 ( 240min) | RMSE= 17.69 | ACF=0.9649 | DW=0.0680 | PI80=0.578 | R2=0.0412
+[20:36:24]     h=60 ( 300min) | RMSE= 17.58 | ACF=0.9649 | DW=0.0680 | PI80=0.576 | R2=0.0684
+[20:36:24]     h=72 ( 360min) | RMSE= 17.30 | ACF=0.9647 | DW=0.0683 | PI80=0.575 | R2=0.0791
+[20:36:24]     h=84 ( 420min) | RMSE= 17.20 | ACF=0.9658 | DW=0.0658 | PI80=0.572 | R2=0.0615
+[20:36:24]     h=96 ( 480min) | RMSE= 17.02 | ACF=0.9667 | DW=0.0643 | PI80=0.578 | R2=0.0629
+[20:36:24] 
+  Model: TFT-Whittle
+[20:36:24]     h= 6 (  30min) | RMSE= 14.39 | ACF=0.9272 | DW=0.1444 | PI80=0.710 | R2=0.4170
+[20:36:24]     h=12 (  60min) | RMSE= 16.86 | ACF=0.9629 | DW=0.0735 | PI80=0.664 | R2=0.1977
+[20:36:24]     h=18 (  90min) | RMSE= 17.02 | ACF=0.9629 | DW=0.0732 | PI80=0.654 | R2=0.1563
+[20:36:24]     h=24 ( 120min) | RMSE= 17.44 | ACF=0.9652 | DW=0.0688 | PI80=0.649 | R2=0.1388
+[20:36:24]     h=36 ( 180min) | RMSE= 17.12 | ACF=0.9662 | DW=0.0668 | PI80=0.631 | R2=0.1156
+[20:36:24]     h=48 ( 240min) | RMSE= 17.09 | ACF=0.9646 | DW=0.0699 | PI80=0.635 | R2=0.1050
+[20:36:24]     h=60 ( 300min) | RMSE= 17.18 | ACF=0.9645 | DW=0.0701 | PI80=0.622 | R2=0.1103
+[20:36:24]     h=72 ( 360min) | RMSE= 17.03 | ACF=0.9659 | DW=0.0674 | PI80=0.622 | R2=0.1074
+[20:36:24]     h=84 ( 420min) | RMSE= 16.90 | ACF=0.9661 | DW=0.0663 | PI80=0.622 | R2=0.0940
+[20:36:24]     h=96 ( 480min) | RMSE= 16.66 | ACF=0.9660 | DW=0.0664 | PI80=0.630 | R2=0.1030
+[20:36:24] 
+Summary table saved: /restricted/projectnb/cgmdiab/nsultana/results/aim3_cgm/phase2_comparison/summary_table.csv
+[20:36:24] 
+Generating comparison figures...
+[20:36:24]   Saved: fig_rmse_comparison.png
+[20:36:25]   Saved: fig_acf_comparison.png
+[20:36:25]   Saved: fig_pi80_comparison.png
+[20:36:25]   Saved: fig_dw_comparison.png
+[20:36:25] 
+Generating ACF decay curves...
+[20:36:25]   Saved: acf_decay_h6_30min.png
+[20:36:26]   Saved: acf_decay_h12_60min.png
+[20:36:26]   Saved: acf_decay_h24_120min.png
+[20:36:27]   Saved: acf_decay_h48_240min.png
+[20:36:27]   Saved: acf_decay_h96_480min.png
+[20:36:27] 
+============================================================
+[20:36:27] FINAL COMPARISON TABLE (Report Horizons)
+[20:36:27] ============================================================
+[20:36:27] 
+--- RMSE ---
+[20:36:27] 
+Model          TFT-ACF  TFT-MSE  TFT-Whittle
+Horizon_label                               
+120 min         18.311   36.451       17.438
+240 min         17.692   46.965       17.093
+30 min          15.713   21.385       14.392
+480 min         17.024   43.597       16.655
+60 min          17.944   28.625       16.858
+[20:36:27] 
+--- ACF_lag1 ---
+[20:36:27] 
+Model          TFT-ACF  TFT-MSE  TFT-Whittle
+Horizon_label                               
+120 min         0.9669   0.9766       0.9652
+240 min         0.9649   0.9852       0.9646
+30 min          0.9455   0.9164       0.9272
+480 min         0.9667   0.9802       0.9660
+60 min          0.9671   0.9615       0.9629
+[20:36:27] 
+--- DW ---
+[20:36:27] 
+Model          TFT-ACF  TFT-MSE  TFT-Whittle
+Horizon_label                               
+120 min         0.0645   0.0461       0.0688
+240 min         0.0680   0.0277       0.0699
+30 min          0.1059   0.1672       0.1444
+480 min         0.0643   0.0378       0.0664
+60 min          0.0645   0.0769       0.0735
+[20:36:27] 
+--- PI80 ---
+[20:36:27] 
+Model          TFT-ACF  TFT-MSE  TFT-Whittle
+Horizon_label                               
+120 min         0.5875   0.6192       0.6491
+240 min         0.5785   0.5629       0.6352
+30 min          0.6681   0.7249       0.7101
+480 min         0.5779   0.5730       0.6298
+60 min          0.6196   0.6639       0.6644
+[20:36:27] 
+--- R2 ---
+[20:36:27] 
+Model          TFT-ACF  TFT-MSE  TFT-Whittle
+Horizon_label                               
+120 min         0.0504   0.0879       0.1388
+240 min         0.0412  -0.0213       0.1050
+30 min          0.3052   0.4103       0.4170
+480 min         0.0629   0.0059       0.1030
+60 min          0.0909   0.1941       0.1977
+[20:36:27] 
+--- ACF Lag-1 Reduction vs TFT-MSE Baseline ---
+[20:36:27] 
+  TFT-ACF:
+[20:36:27]       30min: ACF 0.9164 → 0.9455  (-3.2%)
+[20:36:27]       60min: ACF 0.9615 → 0.9671  (-0.6%)
+[20:36:27]      120min: ACF 0.9766 → 0.9669  (+1.0%)
+[20:36:27]      240min: ACF 0.9852 → 0.9649  (+2.1%)
+[20:36:27]      480min: ACF 0.9802 → 0.9667  (+1.4%)
+[20:36:27] 
+  TFT-Whittle:
+[20:36:27]       30min: ACF 0.9164 → 0.9272  (-1.2%)
+[20:36:27]       60min: ACF 0.9615 → 0.9629  (-0.1%)
+[20:36:27]      120min: ACF 0.9766 → 0.9652  (+1.2%)
+[20:36:27]      240min: ACF 0.9852 → 0.9646  (+2.1%)
+[20:36:27]      480min: ACF 0.9802 → 0.9660  (+1.4%)
+[20:36:27] 
+All outputs in: /restricted/projectnb/cgmdiab/nsultana/results/aim3_cgm/phase2_comparison
+[20:36:27] Total time: 0.1 min
+[20:36:27] ============================================================
